@@ -15,6 +15,15 @@ img {
   width: 85vw;
   max-width: 1900px;
   margin: 0rem auto;
+  background: url("./assets/slope-background.jpg") no-repeat center fixed;
+
+
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {

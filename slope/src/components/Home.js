@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div className="home-container">
       <NavBar />
-      <button onClick={handleJoinClick}>Join</button> 
     </div >
   );
 };
