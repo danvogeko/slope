@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <title>Slope</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class = "opening" id="slopeSection">
+        <h1 id="scrolltopanels">Slope</h1>
+        <h1>Find Your Match</h1>
+        <!-- Content for Slope section goes here -->
+    </div>
+    
+    <div class="panels-wrapper">
+        <div class="filter">
+            <label for="ageFilterpanel1">Age: </label>
+            <select id="ageFilterpanel1">
+                <option value="all">All</option>
+                <option value="18-20">18-20</option>
+                <option value="21-23">21-23</option>
+                <option value="24+">24+</option>
+            </select>
+        <div class="filter">
+            <label for="prefFilterpanel1">Preference: </label>
+            <select id="prefFilterpanel1">
+                <option value="all">All</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+        </div>
+
+        </div>
+        <div class="panel" id="panel1"></div>
+
+        <div class="filter">
+            <label for="ageFilterpanel2">Age: </label>
+            <select id="ageFilterpanel2">
+                <option value="all">All</option>
+                <option value="18-20">18-20</option>
+                <option value="21-23">21-23</option>
+                <option value="30+">24+</option>
+            </select>
+            <div class="filter">  
+            <label for="prefFilterpanel2">Preference: </label>
+            <select id="prefFilterpanel2">
+                <option value="all">All</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+            </div>
+        </div>
+        <div class="panel" id="panel2"></div>
+    </div>
+
+    <button id="matchButton">Match</button>
+
+
+<!-- Your Custom JavaScript -->
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
